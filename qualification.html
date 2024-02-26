@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+ 
+  <title>qualification</title>
+</head>
+<body>
+      <div> 
+      
+        <button onclick="next()" 
+                id="forward">Forward 
+         </button> 
+        <button onClick="previous()" 
+                id="backward">Back 
+         </button> 
+    </div> 
+    <script> 
+        function next() { 
+            window.history.forward(); 
+        } 
+      
+        function previous() { 
+            window.history.back(); 
+        } 
+    </script> <br>
+  <table border="1">
+  <tr>
+    <td>Class</td>
+    <td>Total Marks</td>
+    <td>Percentage(%)</td>
+  </tr>
+  <tr>
+    <td>12th</td>
+    <td>291</td>
+    <td>58.2%</td>
+    <tr>
+      <td>10th</td>
+      <td>329</td>
+      <td>65.2%</td>
+    </tr>
+</body>
+</html>
